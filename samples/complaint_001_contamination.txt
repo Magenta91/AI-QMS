@@ -1,0 +1,57 @@
+PHARMACEUTICAL CUSTOMER COMPLAINT REPORT
+=========================================
+
+COMPLAINT ID: COMP-2024-001
+DATE RECEIVED: January 15, 2024
+COMPLAINT SOURCE: Email
+
+CUSTOMER INFORMATION
+--------------------
+Customer Name: St. Mary's Medical Center
+Contact Person: Dr. Patricia Rodriguez, Chief Pharmacist
+Contact Email: prodriguez@stmarys-med.com
+Contact Phone: (555) 987-6543
+
+PRODUCT INFORMATION
+-------------------
+Product Name: Amoxicillin Capsules
+Product Strength: 500mg
+Batch Number: AMX-2024-001-A
+Manufacturing Date: January 5, 2024
+Expiry Date: January 5, 2026
+Affected Quantity: 100 capsules (2 bottles)
+Originating Site: Manufacturing Facility - Building 3, Phoenix, AZ
+
+COMPLAINT DETAILS
+-----------------
+Complaint Type: Product Quality - Foreign Matter Contamination
+Priority: HIGH
+Initial Severity: Critical
+
+Complaint Description:
+Customer reports discovering what appears to be foreign particulate matter in two bottles of Amoxicillin 500mg capsules from batch AMX-2024-001-A. The foreign particles are described as small black specks, approximately 1-2mm in size, visible inside several capsules when held up to light.
+
+The pharmacy received a shipment of 10 bottles (1000 capsules total) on January 12, 2024. During routine visual inspection before dispensing, the pharmacy technician noticed the contamination in 2 bottles. All 10 bottles have been quarantined and are being held for investigation.
+
+No product from this batch has been dispensed to patients. The customer is requesting immediate investigation and batch disposition. They have segregated all affected material and are prepared to return samples for analysis.
+
+Storage conditions have been maintained per label requirements (15-30°C, protected from moisture).
+
+REGULATORY CONSIDERATIONS
+--------------------------
+- Potential for patient harm if contaminated product dispensed
+- May require batch recall evaluation
+- FDA reportable event consideration needed
+- CAPA investigation required
+
+IMMEDIATE ACTIONS REQUIRED
+---------------------------
+1. Quality investigation initiation
+2. Batch hold and disposition review
+3. Manufacturing records review
+4. Retained sample examination
+5. Risk assessment for other batches from same production run
+6. Customer communication and product retrieval
+
+Complaint Date: January 15, 2024
+Report Prepared By: Quality Assurance Department

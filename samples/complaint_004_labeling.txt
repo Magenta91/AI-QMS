@@ -1,0 +1,92 @@
+PHARMACEUTICAL QUALITY COMPLAINT
+==================================
+
+Complaint No.: 2024-QC-004
+Receipt Date: January 25, 2024
+Complaint Channel: Phone (Follow-up email received)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+COMPLAINANT INFORMATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Organization: Riverside Hospital Pharmacy
+Contact Name: Sarah Thompson, PharmD, BCPS
+Position: Clinical Pharmacy Manager
+Phone: (555) 789-0123
+Email: sthompson@riversidehospital.org
+Account #: RH-45892
+
+PRODUCT DETAILS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Product Name: Metformin HCl Extended Release Tablets
+Product Strength: 750mg
+National Drug Code (NDC): 12345-678-90
+Batch/Lot Number: MET-ER-750-20240118
+Manufacturing Date: January 18, 2024
+Expiration Date: January 18, 2027
+Quantity Involved: 30 bottles (90 tablets each = 2,700 tablets total)
+Site of Manufacture: PharmaTech Manufacturing Complex, Building 7, Austin, TX
+
+COMPLAINT CLASSIFICATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Complaint Category: Labeling Error
+Complaint Type: Incorrect Strength Listed on Label
+Severity Assessment: Critical
+Priority Level: High
+Material Affected: Secondary packaging labels
+
+COMPLAINT NARRATIVE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Hospital pharmacy received routine shipment on January 23, 2024. During receiving inspection, pharmacy technician noted discrepancy between product labeling and internal ordering records.
+
+ISSUE IDENTIFIED:
+The bottle labels indicate "Metformin HCl ER 500mg" but the carton labels and packing slip correctly state "Metformin HCl ER 750mg". Physical tablet inspection confirms tablets are imprinted with "750" and match the 750mg strength specification.
+
+DETAILS:
+• All 30 bottles in shipment have incorrect strength (500mg) on bottle label
+• Cartons correctly labeled as 750mg
+• Tablets are correct 750mg strength (verified by imprint)
+• Mismatch between bottle label and actual product strength
+• No product dispensed - caught during receiving process
+
+PATIENT SAFETY CONCERN:
+This labeling error presents significant patient safety risk. If 500mg labeled product containing actual 750mg tablets were dispensed, patients could receive 50% higher dose than prescribed, potentially causing:
+- Hypoglycemia
+- Lactic acidosis risk
+- Other adverse effects from overdosage
+
+REGULATORY IMPACT:
+- Violates FDA labeling requirements (21 CFR 201)
+- Potential Class II recall situation
+- Requires immediate investigation of labeling operations
+- Need to determine scope: Is this isolated to one shipment or broader?
+
+IMMEDIATE ACTIONS TAKEN BY CUSTOMER:
+✓ All 30 bottles quarantined in secure area
+✓ Product not entered into hospital inventory system
+✓ Photographs taken of labeling discrepancy
+✓ Incident report filed with hospital risk management
+✓ Purchasing department notified to hold all receipts of this batch
+
+CUSTOMER REQUESTS:
+1. Immediate investigation and root cause analysis
+2. Confirmation of scope - how many units affected?
+3. Correct strength product replacement ASAP (hospital stock running low)
+4. Written response detailing corrective/preventive actions
+5. Confirmation that other strengths of Metformin ER not affected
+
+ADDITIONAL INFORMATION:
+- Customer has ordered from this manufacturer for 5+ years
+- No previous quality complaints in past 2 years
+- Customer relationship: Platinum account (high volume)
+- Hospital requires response within 48 hours per their policy
+
+Storage Conditions: Product stored per label requirements in climate-controlled pharmacy (68-75°F, <60% RH)
+
+Samples: Available for retrieval if needed for investigation
+
+Originating Site: PharmaTech Austin Facility
+Complaint Date: January 25, 2024
+Logged By: Jennifer Martinez, Sr. Quality Specialist
+Date Logged: January 25, 2024, 2:30 PM

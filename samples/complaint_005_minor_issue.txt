@@ -1,0 +1,53 @@
+Customer Complaint Intake Form
+================================
+
+Date: January 28, 2024
+Received Via: Email
+Complaint ID: MIN-2024-005
+
+Customer Information:
+---------------------
+Name: Green Valley Pharmacy
+Contact: Mike Peterson, Pharmacy Owner
+Phone: (555) 321-6547
+Email: mike@greenvalleypharmacy.com
+
+Product Information:
+--------------------
+Product Name: Vitamin D3 Softgels
+Product Strength: 2000 IU
+Batch Number: VD3-2K-20240115-C
+Manufacturing Date: 01/15/2024
+Expiry Date: 01/15/2026
+Affected Quantity: 3 bottles (180 softgels)
+Originating Site: Supplement Division, Irvine, CA
+
+Complaint Details:
+------------------
+Complaint Type: Aesthetic/Appearance Issue
+Severity: Minor
+Priority: Low
+
+Description:
+The customer reports that softgels in 3 bottles from the above batch have a slightly cloudy appearance compared to their usual clear amber color. The capsules are still intact with no leakage, and the oil inside does not have an unusual odor.
+
+Customer states this is a cosmetic concern and they have not received any complaints from end consumers. Product is still being sold as the functionality appears unaffected.
+
+Customer is inquiring if this is within normal variation or if there's a quality issue. They are not requesting a return at this time but want confirmation this is acceptable.
+
+Storage: Product stored in cool, dry conditions per label. No exposure to heat or direct sunlight.
+
+Customer Request:
+- Quality assessment/explanation of appearance variation
+- Confirmation whether safe to continue selling
+- No immediate action required, informational inquiry
+
+Previous Issues: None
+Relationship: 3-year customer, regular orders
+
+Notes:
+This appears to be minor cosmetic variation potentially due to natural ingredient variability in softgel composition. Product testing and stability data review recommended.
+
+Complaint Date: 2024-01-28
+Material Affected: Finished product softgels
+Initial Assessment: Low risk, likely cosmetic variation

@@ -1,0 +1,27 @@
+CUSTOMER COMPLAINT REPORT
+
+Date: January 15, 2024
+Customer Name: ABC Hospital Pharmacy
+Complaint Source: Email
+
+Product Details:
+Product Name: Amoxicillin Capsules
+Product Strength: 500mg
+Batch Number: AMX20240115-001
+Manufacturing Date: 2024-01-10
+Expiry Date: 2026-01-10
+Affected Quantity: 50 capsules
+
+Complaint Description:
+Customer reported that they received a bottle of Amoxicillin 500mg capsules (Batch AMX20240115-001) where approximately 10% of the capsules showed signs of discoloration. The capsules appear to have brown spots on the white capsule shells. The affected product was stored according to label instructions.
+
+The customer has segregated the affected batch and is requesting immediate investigation. No adverse patient events have been reported, but the batch has been quarantined as a precautionary measure.
+
+Complaint Type: Product Quality - Visual Defect
+Initial Severity: Major
+Priority: High
+Originating Site: Manufacturing Plant A
+
+Customer Contact: Sarah Johnson, Chief Pharmacist
+Contact Email: sjohnson@abchospital.com
+Contact Phone: (555) 123-4567

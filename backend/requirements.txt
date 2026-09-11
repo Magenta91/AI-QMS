@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+sqlalchemy
+psycopg[binary]
+python-multipart
+python-dotenv
+langgraph
+langchain
+langchain-groq
+groq
+pypdf
+pytest
+httpx

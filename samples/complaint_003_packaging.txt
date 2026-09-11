@@ -1,0 +1,61 @@
+Email Complaint Report - Converted to Standard Form
+=====================================================
+
+FROM: jackson.williams@centralpharmacy.com
+TO: complaints@pharmatech.com
+DATE: January 22, 2024, 9:15 AM
+SUBJECT: Urgent - Packaging Defect Batch LOR-2024-W15
+
+-------------------------------------------------------------------
+
+Dear Quality Team,
+
+I am writing to report a packaging issue we discovered this morning during inventory check.
+
+PRODUCT: Loratadine Tablets 10mg
+BATCH: LOR-2024-W15
+MFG DATE: 01/15/2024
+EXP DATE: 01/15/2027
+
+We received a shipment yesterday (January 21, 2024) containing 20 bottles of Loratadine 10mg tablets. Upon inspection today, we found that 5 bottles have defective child-resistant caps that do not properly engage the locking mechanism.
+
+SPECIFIC ISSUES OBSERVED:
+• Caps can be removed without the push-and-turn action
+• Locking tabs appear misaligned or damaged
+• Affects 25% of the shipment (5 out of 20 bottles)
+
+This is a serious safety concern as the child-resistant feature is non-functional. We cannot stock or sell these bottles due to safety regulations.
+
+All 5 defective bottles are being held in our quarantine area. We have not sold any product from this batch. The remaining 15 bottles have been inspected and their caps function correctly.
+
+We need:
+1. Immediate replacement of the 5 defective bottles
+2. Confirmation that other shipments of this batch are not affected
+3. Investigation into cap supplier or assembly process
+
+Customer Info:
+Jackson Williams, RPh
+Store Manager, Central Pharmacy
+Phone: (555) 456-7890
+
+Please advise on return procedures and timeline for replacement.
+
+Regards,
+Jackson Williams
+
+-------------------------------------------------------------------
+
+COMPLAINT CLASSIFICATION (Completed by QA):
+Complaint Source: Email
+Customer Name: Central Pharmacy
+Product Name: Loratadine Tablets
+Product Strength: 10mg
+Batch Number: LOR-2024-W15
+Affected Quantity: 5 bottles (250 tablets)
+Manufacturing Date: 2024-01-15
+Expiry Date: 2027-01-15
+Originating Site: Primary Manufacturing - Dallas, TX
+Complaint Type: Packaging Defect - Child Resistant Closure
+Initial Severity: Major
+Priority: High
+Complaint Date: 2024-01-22

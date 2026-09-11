@@ -1,0 +1,57 @@
+CUSTOMER COMPLAINT FORM
+
+Complaint Reference: QC-2024-002-B
+Received Date: January 20, 2024
+Source: Phone Call
+
+═══════════════════════════════════════════════════════════════
+
+CUSTOMER DETAILS
+Customer Name: Community Health Pharmacy Network
+Representative: Maria Chen, Quality Manager
+Email: mchen@chpn.org
+Telephone: (555) 234-8901
+
+PRODUCT IDENTIFICATION
+Product Name: Ibuprofen Tablets
+Product Strength: 400mg
+Batch/Lot Number: IBU-20240110-B7
+Manufacturing Date: 2024-01-10
+Expiry Date: 2025-07-10
+Quantity Affected: Approximately 200 tablets (4 bottles of 50 tablets)
+Manufacturing Site: Contract Manufacturing - MediPharm Inc., San Diego, CA
+
+NATURE OF COMPLAINT
+Complaint Type: Visual Defect - Product Appearance
+Severity Level: Major
+Priority Status: Medium
+
+DETAILED DESCRIPTION:
+═══════════════════════════════════════════════════════════════
+
+The pharmacy chain received their regular monthly shipment of Ibuprofen 400mg tablets on January 18, 2024. During stocking procedures, staff noticed that tablets in multiple bottles from batch IBU-20240110-B7 showed yellow-brown discoloration on the tablet coating.
+
+The discoloration appears as irregular patches and spots on the white-coated tablets. Affected tablets are from 4 different bottles, all from the same batch. The remaining 6 bottles from the shipment appear normal.
+
+Product has been stored in climate-controlled pharmacy conditions (68-72°F, 40-50% humidity) since receipt. No environmental exposure or mishandling incidents noted.
+
+No tablets from affected bottles have been dispensed to customers. All affected product has been segregated and quarantined pending investigation results. Customer has photographed the defective tablets and can provide images upon request.
+
+The pharmacy is concerned about:
+• Product stability and efficacy
+• Whether other bottles from this batch are affected
+• Need for return/replacement of affected stock
+• Whether this indicates a broader manufacturing issue
+
+CUSTOMER EXPECTATIONS:
+- Investigation findings within 10 business days
+- Replacement product from unaffected batch
+- Root cause explanation
+- Assurance of corrective actions
+
+Previous Complaints: None from this customer in past 12 months
+Stock on Hand: 10 bottles total from batch, 4 affected, 6 appear normal but being held
+
+Originating Site: Contract Manufacturing - MediPharm Inc.
+Material Affected: Finished product tablets
+Complaint Date: January 20, 2024
