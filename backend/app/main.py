@@ -5,6 +5,9 @@ from app.api import complaint_routes, risk_routes
 from app.core.database import init_db
 from app.core.logging import get_logger
 
+# Import models to register them with Base
+from app.models import complaint
+
 logger = get_logger("APP")
 
 app = FastAPI(title=settings.app_name, version="0.1.0")

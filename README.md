@@ -1,6 +1,8 @@
-# AIVOA Complaint Management System — Starter
+#Complaint Management System — Starter
 
-This starter implements the planned modular-monolith architecture for the AIVOA AI Product Engineer assignment.
+AI-QMS is a full-stack prototype for pharmaceutical complaint intake and quality assessment.
+
+The system addresses a common QMS workflow: a quality/QA user receives a complaint as a PDF or text document, extracts the relevant information, reviews the generated complaint record, assesses its completeness and risk, and can correct individual fields conversationally before saving the record.
 
 ## Stack
 React + Redux Toolkit + Vite | Python + FastAPI | LangGraph | Groq/Gemma 2 9B IT | PostgreSQL
