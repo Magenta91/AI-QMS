@@ -21,19 +21,19 @@
 ```bash
 APP_NAME=Complaint Management System
 ENVIRONMENT=development
-DATABASE_URL=postgresql+psycopg://aivoa_user:CHANGE_ME@localhost:5432/aivoa_complaints
+DATABASE_URL=postgresql+psycopg://aivoa_user:your_password@localhost:5432/aivoa_complaints
 GROQ_API_KEY=your_groq_api_key_here
-GROQ_MODEL=llama-3.1-8b-instant  ⭐ UPDATED
+GROQ_MODEL=openai/gpt-oss-120b
 API_HOST=127.0.0.1
 API_PORT=8000
 FRONTEND_URL=http://localhost:5173
 ```
 
 ### AI Model
-- **Current**: `llama-3.1-8b-instant`
+- **Current**: `openai/gpt-oss-120b`
 - **Previous**: `gemma2-9b-it` (decommissioned)
-- **Reason for change**: Groq deprecated the old model
-- **Performance**: Fast and reliable
+- **Reason for change**: Groq deprecated old models, switched to GPT-OSS series
+- **Performance**: 500 tokens/second, 120B parameters, excellent quality
 
 ---
 
@@ -167,8 +167,8 @@ GET  /api/complaints/{id}        - Get complaint
 
 ## 🔧 Recent Changes
 
-### ✅ Model Update (Just Fixed)
-- Changed from `gemma2-9b-it` → `llama-3.1-8b-instant`
+### ✅ Model Update (Latest)
+- Changed from `gemma2-9b-it` → `openai/gpt-oss-120b`
 - Backend restarted with new configuration
 - System tested and operational
 
@@ -294,6 +294,6 @@ The system is **fully operational** and ready for:
 
 ---
 
-**Last Updated**: September 11, 2026, 3:08 PM  
+**Last Updated**: September 12, 2026, 5:00 AM  
 **System Status**: 🟢 All Systems Operational  
-**Model**: `llama-3.1-8b-instant`
+**Model**: `openai/gpt-oss-120b`
