@@ -4,15 +4,12 @@ from app.core.config import settings
 from app.api import complaint_routes, risk_routes
 from app.core.database import init_db
 from app.core.logging import get_logger
-
-# Import models to register them with Base
 from app.models import complaint
 
 logger = get_logger("APP")
 
 app = FastAPI(title=settings.app_name, version="0.1.0")
 
-# Initialize database tables on startup
 @app.on_event("startup")
 async def startup_event():
     logger.info("Initializing database tables...")
@@ -30,7 +27,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Register routes
 app.include_router(complaint_routes.router)
 app.include_router(risk_routes.router)
 

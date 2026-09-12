@@ -9,7 +9,6 @@ engine = create_engine(settings.database_url, pool_pre_ping=True)
 SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
 
 def get_db():
-    """Dependency to get database session"""
     db = SessionLocal()
     try:
         yield db
@@ -17,7 +16,5 @@ def get_db():
         db.close()
 
 def init_db():
-    """Initialize database tables"""
-    # Import all models here to ensure they are registered with Base
     from app.models import complaint  # noqa: F401
     Base.metadata.create_all(bind=engine)

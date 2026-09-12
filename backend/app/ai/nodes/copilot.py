@@ -58,7 +58,6 @@ Available fields: complaint_source, customer_name, product_name, product_strengt
         
         content = response.get("content", "{}").strip()
         
-        # Remove markdown if present
         if content.startswith("```json"):
             content = content.split("```json")[1].split("```")[0].strip()
         elif content.startswith("```"):
@@ -69,7 +68,6 @@ Available fields: complaint_source, customer_name, product_name, product_strengt
         response_type = result.get("type", "answer")
         
         if response_type == "correction":
-            # Apply the correction to complaint data
             field = result.get("field")
             value = result.get("value")
             if field and field in [
@@ -81,7 +79,6 @@ Available fields: complaint_source, customer_name, product_name, product_strengt
                 current_complaint[field] = value
                 logger.info(f"Updated {field} to: {value}")
         
-        # Add assistant response to state for frontend
         return {
             **state,
             "complaint": current_complaint,
@@ -102,14 +99,12 @@ Available fields: complaint_source, customer_name, product_name, product_strengt
         }
 
 def _build_complaint_context(complaint: dict) -> str:
-    """Build a readable summary of the complaint"""
     if not complaint or not any(complaint.values()):
         return "No complaint data available yet. Please upload a document first."
     
     lines = []
     for key, value in complaint.items():
         if value:
-            # Convert snake_case to Title Case
             label = key.replace('_', ' ').title()
             lines.append(f"{label}: {value}")
     

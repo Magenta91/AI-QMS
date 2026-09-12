@@ -7,7 +7,6 @@ from app.core.logging import get_logger
 logger = get_logger("LANGGRAPH")
 
 def validation_node(state: ComplaintGraphState) -> dict:
-    """Validate extracted complaint data"""
     logger.info("Running validation node")
     
     complaint = state.get("complaint", {})
@@ -21,7 +20,6 @@ def validation_node(state: ComplaintGraphState) -> dict:
     return {**state, "missing_fields": missing, "validation_errors": validation_errors}
 
 def completeness_check_node(state: ComplaintGraphState) -> dict:
-    """Calculate completeness score"""
     logger.info("Running completeness check node")
     
     complaint = state.get("complaint", {})
@@ -40,18 +38,15 @@ def completeness_check_node(state: ComplaintGraphState) -> dict:
     return {**state, "completeness": completeness}
 
 def create_complaint_graph():
-    """Build and compile the LangGraph workflow"""
     logger.info("Creating complaint processing graph")
     
     graph = StateGraph(ComplaintGraphState)
     
-    # Add nodes - using different names than state keys
     graph.add_node("extract", extraction_node)
     graph.add_node("validate", validation_node)
     graph.add_node("check_completeness", completeness_check_node)
     graph.add_node("assess_risk", risk_node)
     
-    # Define edges
     graph.add_edge(START, "extract")
     graph.add_edge("extract", "validate")
     graph.add_edge("validate", "check_completeness")
@@ -60,11 +55,9 @@ def create_complaint_graph():
     
     return graph.compile()
 
-# Create singleton graph instance
 complaint_graph = None
 
 def get_complaint_graph():
-    """Get or create the complaint graph singleton"""
     global complaint_graph
     if complaint_graph is None:
         complaint_graph = create_complaint_graph()

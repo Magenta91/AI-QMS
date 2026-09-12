@@ -21,16 +21,12 @@ async def upload_document(file: UploadFile = File(...)):
         raise HTTPException(status_code=400, detail="Only PDF files are supported")
     
     try:
-        # Save uploaded file temporarily
         with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_file:
             content = await file.read()
             temp_file.write(content)
             temp_path = temp_file.name
         
-        # Extract text from PDF
         extracted_text = document_service.extract_pdf_text(temp_path)
-        
-        # Clean up temp file
         Path(temp_path).unlink()
         
         logger.info(f"Successfully extracted {len(extracted_text)} characters from PDF")

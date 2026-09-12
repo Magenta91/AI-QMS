@@ -23,7 +23,7 @@ class ComplaintTextRequest(BaseModel):
 
 class ComplaintProcessRequest(BaseModel):
     text: str = Field(min_length=1)
-    source_type: str = Field(default="text")  # text, pdf, email
+    source_type: str = Field(default="text")
 
 class ComplaintCorrectRequest(BaseModel):
     complaint_data: Dict[str, Any]

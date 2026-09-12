@@ -6,37 +6,23 @@ class Complaint(Base):
     __tablename__ = "complaints"
     
     id = Column(Integer, primary_key=True, index=True)
-    
-    # Complaint source and customer info
     complaint_source = Column(String(100), nullable=True)
     customer_name = Column(String(255), nullable=True)
-    
-    # Product information
     product_name = Column(String(255), nullable=True)
     product_strength = Column(String(100), nullable=True)
     batch_number = Column(String(100), nullable=True, index=True)
     affected_quantity = Column(String(100), nullable=True)
-    
-    # Dates
     manufacturing_date = Column(String(50), nullable=True)
     expiry_date = Column(String(50), nullable=True)
     complaint_date = Column(String(50), nullable=True)
-    
-    # Site and material
     originating_site = Column(String(255), nullable=True)
     affected_material = Column(String(255), nullable=True)
-    
-    # Complaint details
     complaint_type = Column(String(255), nullable=True)
     complaint_description = Column(Text, nullable=True)
     initial_severity = Column(String(50), nullable=True)
     priority = Column(String(50), nullable=True)
-    
-    # Metadata
     completeness = Column(Float, nullable=True)
     risk_assessment = Column(JSON, nullable=True)
-    
-    # Timestamps
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), onupdate=func.now())
     

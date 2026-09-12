@@ -27,7 +27,6 @@ class RiskService(BaseService):
         self.logger.info("Performing AI risk assessment")
         
         try:
-            # Build prompt for risk assessment
             complaint_summary = self._build_complaint_summary(complaint_data)
             
             prompt = f"""You are a pharmaceutical quality assurance AI assistant. Assess the risk level of this customer complaint.
@@ -60,27 +59,22 @@ Respond ONLY with valid JSON in this exact format:
                 temperature=0.3
             )
             
-            # Parse JSON response
             content = response.get("content", "{}")
             try:
                 assessment = json.loads(content)
             except json.JSONDecodeError:
-                # Fallback to rule-based if AI fails
                 self.logger.warning("Failed to parse AI response, using fallback")
                 assessment = self.assess(complaint_data)
             
-            # Add disclaimer
             assessment["disclaimer"] = "AI-assisted assessment. Requires human QA review and regulatory compliance verification."
             
             return assessment
             
         except Exception as e:
             self.logger.error(f"Error in AI risk assessment: {str(e)}")
-            # Fallback to rule-based assessment
             return self.assess(complaint_data)
 
     def _build_complaint_summary(self, complaint: Dict[str, Any]) -> str:
-        """Build a readable summary of complaint for AI"""
         lines = []
         
         fields = [

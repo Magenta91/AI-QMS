@@ -24,7 +24,6 @@ class ComplaintService(BaseService):
         self.logger.info(f"Processing complaint from {source_type}")
         
         try:
-            # Run the LangGraph workflow
             initial_state = {
                 "raw_input": text,
                 "source_type": source_type,
@@ -66,7 +65,6 @@ class ComplaintService(BaseService):
         try:
             from app.ai.nodes.copilot import copilot_node
             
-            # Run through copilot node
             correction_state = {
                 "raw_input": user_message,
                 "source_type": "correction",
@@ -96,7 +94,6 @@ class ComplaintService(BaseService):
             raise
     
     def _calculate_completeness(self, complaint: Dict[str, Any]) -> float:
-        """Calculate completeness percentage"""
         fields = [
             "complaint_source", "customer_name", "product_name",
             "product_strength", "batch_number", "affected_quantity",
@@ -115,10 +112,8 @@ class ComplaintService(BaseService):
             from app.core.database import SessionLocal
             from app.repositories.complaint_repository import ComplaintRepository
             
-            # Calculate completeness before saving
             completeness = self._calculate_completeness(complaint)
             
-            # Filter to only include fields that exist in the database model
             valid_fields = [
                 "complaint_source", "customer_name", "product_name", "product_strength",
                 "batch_number", "affected_quantity", "manufacturing_date", "expiry_date",
@@ -126,14 +121,12 @@ class ComplaintService(BaseService):
                 "complaint_description", "initial_severity", "priority", "completeness", "risk_assessment"
             ]
             
-            # Prepare data for database - only include valid fields
             db_data = {
                 key: value for key, value in complaint.items() 
                 if key in valid_fields and value is not None
             }
             db_data["completeness"] = completeness
             
-            # Create database session
             db = SessionLocal()
             try:
                 repo = ComplaintRepository(db)

@@ -65,7 +65,6 @@ Respond ONLY with valid JSON in this exact format (no markdown, no extra text):
         
         content = response.get("content", "{}").strip()
         
-        # Remove markdown code blocks if present
         if content.startswith("```json"):
             content = content.split("```json")[1].split("```")[0].strip()
         elif content.startswith("```"):
